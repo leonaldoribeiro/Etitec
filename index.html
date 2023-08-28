@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
+</head>
+<body>
+
+<h2>Relatório de Interações e Dependências entre Setores de Gestão</h2>
+
+<table>
+  <tr>
+    <th>Setor de Gestão</th>
+    <th>Dependências</th>
+    <th>Níveis de Interação</th>
+    <th>Nível de Dependência</th>
+  </tr>
+  <tr>
+    <td>Produção/Manufatura</td>
+    <td>Depende das previsões de demanda fornecidas pelo Gestor de Vendas e Marketing.</td>
+    <td>Produção/Manufatura: Alto (Acompanhamento de demanda e feedback).<br>Recursos Humanos: Médio (Garantia de mão de obra qualificada).<br>Logística: Alto (Recebe insumos e distribui produtos finais).</td>
+    <td>Produção/Manufatura: Médio (Dependência direta para ajuste de produção).<br>Recursos Humanos: Médio (Necessidade de pessoal adequado).<br>Logística: Alto (Necessidade de insumos e distribuição eficiente).</td>
+  </tr>
+  <tr>
+    <td>Logística e Suprimentos</td>
+    <td>Depende das previsões de demanda do Gestor de Vendas e Marketing para planejar aquisição de insumos.</td>
+    <td>Vendas e Marketing: Alto (Planejamento de demanda).<br>Financeiro: Médio (Gerenciamento de orçamento).<br>Produção/Manufatura: Alto (Coordenação de entrega de insumos e produtos finais).</td>
+    <td>Vendas e Marketing: Alto (Planejamento de insumos).<br>Financeiro: Médio (Planejamento orçamentário).<br>Produção/Manufatura: Alto (Garantia de insumos).</td>
+  </tr>
+  <tr>
+    <td>Vendas e Marketing</td>
+    <td>Depende das informações de estoque e produção do Gestor de Produção/Manufatura.</td>
+    <td>Produção/Manufatura: Alto (Informações de produção e estoque).<br>Financeiro: Médio (Orçamento de marketing).<br>Logística: Alto (Disponibilidade de produtos).</td>
+    <td>Produção/Manufatura: Médio (Informações de produção e estoque).<br>Financeiro: Médio (Orçamento de marketing).<br>Logística: Alto (Disponibilidade de produtos).</td>
+  </tr>
+  <tr>
+    <td>Financeiro</td>
+    <td>Depende dos relatórios de vendas e receitas fornecidos pelo Gestor de Vendas e Marketing.</td>
+    <td>Vendas e Marketing: Médio (Relatórios de vendas e receitas).<br>Logística: Médio (Aprovação de despesas de suprimentos e logística).<br>Recursos Humanos: Médio (Gerenciamento de folhas de pagamento).</td>
+    <td>Vendas e Marketing: Médio (Relatórios de vendas e receitas).<br>Logística: Médio (Aprovação de despesas).<br>Recursos Humanos: Médio (Gerenciamento de folhas de pagamento).</td>
+  </tr>
+  <tr>
+    <td>Recursos Humanos</td>
+    <td>Depende das previsões de produção e vendas para dimensionar a força de trabalho.</td>
+    <td>Produção/Manufatura: Médio (Garantia de mão de obra qualificada).<br>Logística: Médio (Coordenação de pessoal).<br>Financeiro: Médio (Gerenciamento de custos trabalhistas).</td>
+    <td>Produção/Manufatura: Médio (Necessidade de pessoal).<br>Logística: Médio (Necessidade de pessoal).<br>Financeiro: Médio (Custos trabalhistas).</td>
+  </tr>
+  <tr>
+    <td>Tecnologia da Informação (TI)</td>
+    <td>Depende das demandas das áreas funcionais para desenvolver soluções de TI personalizadas.</td>
+    <td>Todos os setores: Alto (Atendimento às demandas de sistemas e integrações).</td>
+    <td>Todos os setores: Alto (Suporte de TI).</td>
+  </tr>
+  <tr>
+    <td>Serviços Técnicos</td>
+    <td>Depende das informações de vendas e garantia fornecidas pelo Gestor de Vendas e Marketing.</td>
+    <td>Vendas e Marketing: Alto (Informações de vendas e garantia).<br>Logística: Médio (Coordenação de reparo e manutenção).<br>Produção/Manufatura: Alto (Detalhes técnicos dos produtos).</td>
+    <td>Vendas e Marketing: Alto (Garantia e informações de vendas).<br>Logística: Médio (Coordenação de reparo e manutenção).<br>Produção/Manufatura: Alto (Detalhes técnicos).</td>
+  </tr>
+  <tr>
+    <td>E-commerce</td>
+    <td>Depende das informações de estoque e preços fornecidas pelo Gestor de Logística.</td>
+    <td>Logística: Alto (Informações de estoque e preços).<br>Vendas e Marketing: Alto (Promoção online).<br>Tecnologia da Informação: Alto (Funcionalidade da loja online).</td>
+    <td>Logística: Alto (Informações de estoque e preços).<br>Vendas e Marketing: Alto (Promoção online).<br>Tecnologia da Informação: Alto (Funcionalidade online).</td>
+  </tr>
+  <tr>
+    <td>Inovação e Desenvolvimento de Produtos</td>
+    <td>Depende das informações de vendas e feedback do cliente fornecidas pelo Gestor de Vendas e Marketing.</td>
+    <td>Vendas e Marketing: Alto (Feedback de vendas e clientes).<br>Produção/Manufatura: Alto (Produção de novos produtos).<br>Tecnologia da Informação: Médio (Sistemas de suporte à inovação).</td>
+    <td>Vendas e Marketing: Alto (Feedback de vendas e clientes).<br>Produção/Manufatura: Alto (Produção de novos produtos).<br>Tecnologia da Informação: Médio (Sistemas de suporte).</td>
+  </tr>
+  <tr>
+    <td>Atendimento ao Cliente</td>
+    <td>Depende das informações de vendas, interações e reclamações do cliente fornecidas pelo Gestor de Vendas e Marketing.</td>
+    <td>Vendas e Marketing: Alto (Informações de vendas e interações).<br>Logística: Alto (Resolução de problemas de entrega e devoluções).<br>Serviços Técnicos: Alto (Problemas técnicos relatados).</td>
+    <td>Vendas e Marketing: Alto (Informações de vendas e interações).<br>Logística: Alto (Resolução de problemas).<br>Serviços Técnicos: Alto (Problemas técnicos).</td>
+  </tr>
+  <tr>
+    <td>Marketing</td>
+    <td>Depende das informações de vendas e público-alvo fornecidas pelo Gestor de Vendas e Marketing.</td>
+    <td>Vendas e Marketing: Alto (Informações de vendas e público-alvo).<br>Recursos Humanos: Médio (Equipes de promoção e eventos).<br>E-commerce: Alto (Promoção online).</td>
+    <td>Vendas e Marketing: Alto (Informações de vendas e público-alvo).<br>Recursos Humanos: Médio (Equipes de promoção e eventos).<br>E-commerce: Alto (Promoção online).</td>
+  </tr>
+  <tr>
+    <td>Operações</td>
+    <td>Depende das informações de estoque, produção e vendas de diversas áreas.</td>
+    <td>Todos os setores: Alto (Gestão diária).<br>Logística: Alto (Otimização de fluxos de processos).</td>
+    <td>Todos os setores: Alto (Necessidade de informações para operações diárias).<br>Logística: Alto (Necessidade de otimização).</td>
+  </tr>
+  <tr>
+    <td>Projetos</td>
+    <td>Interage com todos os gestores para entender os requisitos de sistemas e processos.</td>
+    <td>Todos os setores: Alto (Requisitos de sistemas e processos).</td>
+    <td>Todos os setores: Alto (Implementação de projetos estratégicos).</td>
+  </tr>
+</table>
+
+</body>
+</html>
